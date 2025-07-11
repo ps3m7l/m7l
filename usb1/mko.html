@@ -11,13 +11,25 @@
       padding: 20px;
     }
     .product {
+      display: flex;
+      align-items: center;
       background-color: #fff;
       padding: 15px;
       margin-bottom: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px #ccc;
     }
-    .product h2 {
+    .product img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-left: 20px;
+      border-radius: 6px;
+    }
+    .info {
+      flex: 1;
+    }
+    .info h2 {
       margin: 0 0 10px;
     }
     .details {
@@ -28,6 +40,11 @@
       color: green;
       font-weight: bold;
     }
+    .whatsapp {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
@@ -35,24 +52,32 @@
   <h1>عروض شراء عملات Ludo Star</h1>
 
   <div class="product">
-    <h2>🌟 EMMASTORE</h2>
-    <div class="details">
-      ⭐ التقييم: 4.8<br>
-      📦 الكمية المتوفرة: 9999M<br>
-      📋 الحد الأدنى للشراء: 9999M<br>
-      ⏰ وقت التوصيل المتوقع: خلال 24 ساعة<br>
-      💰 السعر لكل مليون: <span class="price">$46.80</span>
+    <img src="emma.png" alt="EMMASTORE">
+    <div class="info">
+      <h2>🌟 EMMASTORE</h2>
+      <div class="details">
+        ⭐ التقييم: 4.8<br>
+        📦 الكمية المتوفرة: 9999M<br>
+        📋 الحد الأدنى للشراء: 9999M<br>
+        ⏰ وقت التوصيل المتوقع: خلال 24 ساعة<br>
+        💰 السعر لكل مليون: <span class="price">$46.80</span>
+      </div>
+      <div class="whatsapp">📞 واتساب للتواصل: <strong>96892030614+</strong></div>
     </div>
   </div>
 
   <div class="product">
-    <h2>🔥 Crazy Raccoon™</h2>
-    <div class="details">
-      ⭐ التقييم: 5.0<br>
-      📦 الكمية المتوفرة: 1000M<br>
-      📋 الحد الأدنى للشراء: 1000M<br>
-      ⏰ وقت التوصيل المتوقع: خلال ساعة<br>
-      💰 السعر لكل مليون: <span class="price">$55.00</span>
+    <img src="raccoon.png" alt="Crazy Raccoon">
+    <div class="info">
+      <h2>🔥 Crazy Raccoon™</h2>
+      <div class="details">
+        ⭐ التقييم: 5.0<br>
+        📦 الكمية المتوفرة: 1000M<br>
+        📋 الحد الأدنى للشراء: 1000M<br>
+        ⏰ وقت التوصيل المتوقع: خلال ساعة<br>
+        💰 السعر لكل مليون: <span class="price">$55.00</span>
+      </div>
+      <div class="whatsapp">📞 واتساب للتواصل: <strong>96892030614+</strong></div>
     </div>
   </div>
 
