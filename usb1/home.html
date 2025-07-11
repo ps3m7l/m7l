@@ -8,16 +8,22 @@
 <body>
   <header>
     <h1>🎮 متجر الألعاب</h1>
-    <input type="text" id="search" placeholder="🔍 ابحث عن لعبة...">
-    <button onclick="searchGame()">بحث</button>
+
+    <div class="search-area">
+      <input type="text" id="search" placeholder="🔍 ابحث عن لعبة...">
+      <button onclick="searchGame()">بحث</button>
+    </div>
+
     <div class="auth">
-      <input type="text" placeholder="رقم الهاتف أو البريد الإلكتروني">
-      <button>تسجيل دخول</button>
+      <input type="text" id="loginInput" placeholder="📧 رقم الهاتف أو البريد الإلكتروني">
+      <button onclick="login()">تسجيل دخول</button>
     </div>
   </header>
 
   <main id="games">
-    <!-- سيتم عرض الألعاب هنا -->
+    <!-- محتوى الألعاب يظهر هنا -->
   </main>
+
+  <script src="m7l/usb1/script.js"></script>
 </body>
 </html>
