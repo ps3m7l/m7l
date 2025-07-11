@@ -2,42 +2,52 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>واجهة الألعاب</title>
+  <title>Steam واجهة</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #1b1b1b;
-      color: #f1f1f1;
+      background-color: #171a21;
+      color: #c6d4df;
       direction: rtl;
     }
-    header {
-      background-color: #2c2c2c;
-      padding: 15px 25px;
+    .topbar {
+      background-color: #1b2838;
+      padding: 10px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    nav a {
-      margin-left: 15px;
-      color: #aaa;
-      text-decoration: none;
-      font-size: 16px;
+    .topbar .logo {
+      font-size: 20px;
+      color: #66c0f4;
+      font-weight: bold;
     }
-    nav a:hover {
-      color: #fff;
-    }
-    .games-section {
-      padding: 25px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    .topbar .menu {
+      display: flex;
       gap: 20px;
+      font-size: 14px;
+    }
+    .topbar .menu div {
+      color: #c7d5e0;
+      cursor: pointer;
+    }
+    .section-title {
+      padding: 20px;
+      font-size: 22px;
+      color: #ffffff;
+      border-bottom: 1px solid #2a475e;
+    }
+    .games-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
     }
     .game-card {
-      background-color: #2c2c2c;
+      background-color: #1b2838;
+      padding: 15px;
       border-radius: 10px;
-      overflow: hidden;
-      padding: 10px;
     }
     .game-card img {
       width: 100%;
@@ -46,51 +56,56 @@
       border-radius: 6px;
       margin-bottom: 10px;
     }
-    .game-title {
+    .game-name {
       font-size: 18px;
-      font-weight: bold;
+      color: #66c0f4;
       margin-bottom: 5px;
     }
-    .game-category {
+    .game-meta {
       font-size: 14px;
-      color: #ccc;
+      color: #acb2b8;
       margin-bottom: 5px;
     }
     .game-price {
       font-size: 16px;
-      color: #4CAF50;
+      color: #a4d007;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <div><strong>🎮 ألعاب جديدة ورائجة</strong></div>
-    <nav>
-      <a href="#">الرائجة</a>
-      <a href="#">الأكثر مبيعًا</a>
-      <a href="#">القادمة</a>
-      <a href="#">العروض</a>
-      <a href="#">مجانية</a>
-    </nav>
-  </header>
+  <div class="topbar">
+    <div class="logo">STEAM</div>
+    <div class="menu">
+      <div>Menu</div>
+      <div>Wishlist</div>
+      <div>Wallet</div>
+      <div>🧑‍💻</div>
+    </div>
+  </div>
 
-  <section class="games-section">
+  <div class="section-title">🎮 ألعاب جديدة ورائجة</div>
+
+  <div class="games-list">
     <div class="game-card">
-      <img src="m7l/usb1/game1.jpg" alt="لعبة 1">
-      <div class="game-title">اسم اللعبة 1</div>
-      <div class="game-category">Action - Casual</div>
-      <div class="game-price">$9.99</div>
+      <img src="m7l/usb1/patapon.jpg" alt="PATAPON">
+      <div class="game-name">PATAPON 1+2 REPLAY</div>
+      <div class="game-meta">Action, Rhythm, RPG</div>
+      <div class="game-meta">11 Jul, 2025</div>
+      <div class="game-price">$19.99</div>
     </div>
+
     <div class="game-card">
-      <img src="m7l/usb1/game2.jpg" alt="لعبة 2">
-      <div class="game-title">اسم اللعبة 2</div>
-      <div class="game-category">Adventure - Story</div>
-      <div class="game-price">مجانية</div>
+      <img src="m7l/usb1/islanders.jpg" alt="Islanders">
+      <div class="game-name">ISLANDERS: New Shores</div>
+      <div class="game-meta">Casual, City Builder</div>
+      <div class="game-meta">10 Jul, 2025</div>
+      <div class="game-price">$5.21 <small>(-10%)</small></div>
     </div>
-    <!-- أضف المزيد حسب رغبتك -->
-  </section>
+
+    <!-- يمكنك إضافة باقي الألعاب بنفس التنسيق -->
+  </div>
 
 </body>
 </html>
