@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'FirstFun';
+    src: url('FirstFun.otf') format('opentype'); /* تأكد من وضع ملف الخط في المسار الصحيح */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* الخط الافتراضي لباقي الصفحة */
+    margin: 0;
+    padding: 0;
+    background-color: #4169E1; /* لون الخلفية */
+    text-align: center;
+    color: #fff; /* جعل النصوص بيضاء افتراضياً */
+    font-size: 18px; /* تحسين حجم النص الافتراضي */
+    line-height: 1.6; /* تحسين التباعد بين الأسطر */
+}
+
+header {
+    background-color: #333;
+    color: #fff; /* نص الهيدر باللون الأبيض */
+    padding: 10px 0;
+    font-size: 30px; /* تكبير حجم النص */
+    font-weight: bold; /* تعريض النص */
+    font-family: 'FirstFun', sans-serif; /* تطبيق خط FirstFun فقط للهيدر */
+}
+
+main {
+    padding: 20px;
+}
+
+.about img {
+    width: 250px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.about h2 {
+    margin: 10px 0;
+    color: #fff; /* تغيير عنوان قسم "about" إلى الأبيض */
+    font-size: 24px; /* تكبير حجم العنوان */
+    font-weight: bold; /* تعريض النص */
+    text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+}
+
+.about p {
+    font-size: 18px; /* تكبير النص */
+    font-weight: bold; /* تعريض الخط */
+    color: #fff; /* تغيير لون النصوص في قسم "about" إلى الأبيض */
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between; /* توزيع الأزرار بالتساوي */
+    gap: 25px; /* مسافة إضافية بين الأزرار */
+    margin-bottom: 25px; /* مسافة تحت كل صف */
+}
+
+.button {
+    flex: 1;
+    max-width: 250px; /* عرض ثابت للأزرار */
+    padding: 10px;
+    background-color: #333;
+    color: #fff; /* نصوص الأزرار بالأبيض */
+    text-decoration: none;
+    font-size: 18px; /* تكبير النص داخل الأزرار */
+    font-weight: bold; /* تعريض النص */
+    border-radius: 5px; /* زوايا مستديرة */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+    transform: translateY(-3px); /* رفع طفيف عند التمرير */
+}
+
+.separator {
+    border: 0;
+    height: 2px;
+    background: #4169E1; /* تغيير لون الخط الفاصل إلى الأبيض */
+    margin: 20px 0; /* مسافة بين الخط والأزرار */
+}
