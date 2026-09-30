@@ -362,6 +362,40 @@ SubsInstagram|📷 مشترك Instagram|bool|
 SubsTwitter|🐦 مشترك Twitter|bool|
 SubsTikTok|🎵 مشترك TikTok|bool|
 
+# ═══════════ 🚀 النيترو (للألعاب التي تستخدمه بشكل صريح) ═══════════
+hcr1-nitro|🚀 النيترو|num|100,500,1000,5000,99999
+nitro|🚀 النيترو|num|100,500,1000,5000,99999
+nitroCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
+nitroLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nitroUpgrade|🚀 ترقية النيترو|num|0,1,2,3,4,5
+nos|🚀 النيترو (NOS)|num|100,500,1000,5000,99999
+nosCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
+nosLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nosStage|🚀 مرحلة النيترو|num|0,1,2,3,4,5
+nosStageInstalled|🚀 النيترو المركب|num|0,1,2,3,4,5
+nitrous|🚀 النيترو|num|100,500,1000,5000,99999
+nitrousLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nitroAmount|🚀 كمية النيترو|num|100,500,1000,5000,99999
+nitroMax|🚀 أقصى نيترو|num|100,500,1000,5000,99999
+nitroRefill|🚀 إعادة تعبئة النيترو|num|1,10,100,1000,9999
+nitroBoost|🚀 دفعة النيترو|num|0,1,2,3,4,5
+nitroFuel|⛽ وقود النيترو|num|100,500,1000,5000,99999
+hasNitro|🚀 لديه نيترو|bool|
+unlockNitro|🔓 فتح النيترو|bool|
+nitroUnlocked|🔓 النيترو مفتوح|num|0,1
+turbo|🚀 التيربو|num|0,1,2,3,4,5
+turboCount|🚀 عدد التيربو|num|100,500,1000,5000,99999
+turboLevel|🚀 مستوى التيربو|num|0,1,2,3,4,5
+turboStage|🚀 مرحلة التيربو|num|0,1,2,3,4,5
+turboStageInstalled|🚀 التيربو المركب|num|0,1,2,3,4,5
+boost|🚀 الدفعة|num|0,1,2,3,4,5
+boostLevel|🚀 مستوى الدفعة|num|0,1,2,3,4,5
+boostStage|🚀 مرحلة الدفعة|num|0,1,2,3,4,5
+boostStageInstalled|🚀 الدفعة المركبة|num|0,1,2,3,4,5
+boostPressure|🔧 ضغط التيربو|num|0,1,2,3,4,5
+speedBoost|⚡ دفعة السرعة|num|0,1,2,3,4,5
+superBoost|🚀 الدفعة الخارقة|num|0,1,2,3,4,5
+
 # ═══════════ 📊 الإحصائيات ═══════════
 distanceRide|🛣️ مسافة القيادة|num|100,1000,10000,100000,999999
 distanceRun|🏃 مسافة الجري|num|100,1000,10000,100000,999999
