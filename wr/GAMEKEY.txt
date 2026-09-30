@@ -1,13 +1,14 @@
-⁸# ═══════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
 #  M7L TEAM - GAMEKEY Values List
 #  الصيغة: المفتاح|الوصف|النوع|القيم_المقترحة
 #  النوع: num (رقم) - bool (منطقي) - text (نص)
 #  الأسطر التي تبدأ بـ # يتم تجاهلها
+#  آخر تحديث: 2026-09-30
 # ═══════════════════════════════════════════════════════════════
 
 # ═══════════ 💵 الأموال والعملات ═══════════
-currency|💵 العملة|num|99999,999999,9999999,99999999,999999999
-coins|🪙 العملات|num|99999,999999,9999999,99999999,999999999
+currency|💵 العملة|num|99999,999999,9999999,99999999,999999999,1000006999
+coins|🪙 العملات|num|99999,999999,9999999,99999999,999999999,1000006999
 coin|🪙 العملة|num|99999,999999,9999999,99999999,999999999
 money|💵 المال|num|99999,999999,9999999,99999999,999999999
 cash|💵 النقد|num|99999,999999,9999999,99999999,999999999
@@ -37,14 +38,12 @@ Loot|📦 الغنيمة|num|99999,999999,9999999,99999999,999999999
 Chest|📦 الصندوق|num|99999,999999,9999999,99999999,999999999
 Safe|🔐 الخزنة|num|99999,999999,9999999,99999999,999999999
 Vault|🏦 القبو|num|99999,999999,9999999,99999999,999999999
+
 # ═══════════ 🆕 قيم أضفتها بناءً على طلبك ═══════════
 Paint buckets|🎨 دِلاء الطلاء|num|99999,999999,9999999,99999999,999999999
 BOOSTER|🚀 المعزز|num|99999,999999,9999999,99999999,999999999
 
-# ═══════════ 🎯 قيم إضافية شائعة في الألعاب ═══════════
-# (أمثلة حقيقية من ألعاب مختلفة)
-
-# ألعاب Defense Heroes
+# ═══════════ 🎯 قيم Defense Heroes (حقيقية) ═══════════
 totalGem|💎 إجمالي الجواهر|num|99999,999999,9999999,99999999,999999999
 totalSoulStone|🪨 إجمالي حجر الروح|num|99999,999999,9999999,99999999,999999999
 totalCoin|🪙 إجمالي العملات|num|99999,999999,9999999,99999999,999999999
@@ -53,8 +52,10 @@ totalPointTalent|⭐ إجمالي نقاط المواهب|num|99999,999999,99999
 totalTicketRaid|🎫 إجمالي تذاكر الغزو|num|99999,999999,9999999,99999999,999999999
 totalEnergy|⚡ إجمالي الطاقة|num|99999,999999,9999999,99999999,999999999
 totalBookSkills|📚 إجمالي كتب المهارات|num|99999,999999,9999999,99999999,999999999
+
 # ═══════════ 🆔 المعرفات الآمنة ═══════════
 unity.player_sessionid|🆔 معرف جلسة اللاعب (آمن)|text|
+unity.player_session_count|🔢 عدد الجلسات|text|
 unity.cloud_userid|☁️ معرف المستخدم السحابي (آمن)|text|
 UnityInstallationId|🆔 معرف تثبيت Unity (آمن)|text|
 UserGuidAnonymous|🆔 معرف المستخدم المجهول (آمن)|text|
@@ -62,17 +63,55 @@ Gadsme_UserId|🆔 معرف Gadsme (آمن)|text|
 unity_connect.installation_id|🆔 معرف التثبيت (آمن)|text|
 unity_connect.session_id|🆔 معرف الجلسة (آمن)|text|
 unity_connect.mega_session_id|🆔 معرف الجلسة الكبير (آمن)|text|
-# ═══════════════════════════════════════════════════════════════
-#  M7L TEAM - GAMEKEY Values (مستخرج من ملف حفظ حقيقي)
-#  الصيغة: المفتاح|الوصف|النوع|القيم_المقترحة
-# ═══════════════════════════════════════════════════════════════
+PlayerId|🆔 معرف اللاعب|text|
 
-# ═══════════ 💰 القيم المالية (مؤكدة 100%) ═══════════
-coins|🪙 العملات|num|99999,999999,9999999,99999999,999999999,1000006999
+# ═══════════ 🎮 إعدادات Unity العامة ═══════════
+UnityGraphicsQuality|🎨 جودة الرسومات Unity|num|0,1,2,3,4,5
+__UNITY_PLAYERPREFS_VERSION__|📌 إصدار PlayerPrefs Unity|num|1,2,3
+Screenmanager Fullscreen mode|🖥️ وضع ملء الشاشة|num|0,1
+Screenmanager Resolution Height|📐 ارتفاع الشاشة|num|720,1080,1440,2160
+Screenmanager Resolution Width|📐 عرض الشاشة|num|1280,1920,2400,3840
+TotalPlayTime|⏰ إجمالي وقت اللعب|text|
+Quantum.ReconnectInformation|🔌 معلومات إعادة الاتصال|text|
+GameState|📊 حالة اللعبة (JSON)|text|
+
+# ═══════════ 💰 القيم المالية (HCR2 - مؤكدة) ═══════════
 highscore|🏅 أعلى نتيجة|num|100,1000,10000,100000,999999,9999999
 gemCompensationForExcessiveNitros|💎 تعويض الجواهر عن النيترو|num|100,500,1000,2000,5000,10000
 
 # ═══════════ 🚀 التيربو والنيترو والدفعات ═══════════
+hcr1-nitro|🚀 النيترو HCR1|num|100,500,1000,5000,99999
+nitro|🚀 النيترو|num|100,500,1000,5000,99999
+nitroCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
+nitroLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nitroUpgrade|🚀 ترقية النيترو|num|0,1,2,3,4,5
+nos|🚀 النيترو (NOS)|num|100,500,1000,5000,99999
+nosCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
+nosLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nosStage|🚀 مرحلة النيترو|num|0,1,2,3,4,5
+nosStageInstalled|🚀 النيترو المركب|num|0,1,2,3,4,5
+nitrous|🚀 النيترو|num|100,500,1000,5000,99999
+nitrousLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
+nitroAmount|🚀 كمية النيترو|num|100,500,1000,5000,99999
+nitroMax|🚀 أقصى نيترو|num|100,500,1000,5000,99999
+nitroRefill|🚀 إعادة تعبئة النيترو|num|1,10,100,1000,9999
+nitroBoost|🚀 دفعة النيترو|num|0,1,2,3,4,5
+nitroFuel|⛽ وقود النيترو|num|100,500,1000,5000,99999
+hasNitro|🚀 لديه نيترو|bool|
+unlockNitro|🔓 فتح النيترو|bool|
+nitroUnlocked|🔓 النيترو مفتوح|num|0,1
+turbo|🚀 التيربو|num|0,1,2,3,4,5
+turboCount|🚀 عدد التيربو|num|100,500,1000,5000,99999
+turboLevel|🚀 مستوى التيربو|num|0,1,2,3,4,5
+turboStage|🚀 مرحلة التيربو|num|0,1,2,3,4,5
+turboStageInstalled|🚀 التيربو المركب|num|0,1,2,3,4,5
+boost|🚀 الدفعة|num|0,1,2,3,4,5
+boostLevel|🚀 مستوى الدفعة|num|0,1,2,3,4,5
+boostStage|🚀 مرحلة الدفعة|num|0,1,2,3,4,5
+boostStageInstalled|🚀 الدفعة المركبة|num|0,1,2,3,4,5
+boostPressure|🔧 ضغط التيربو|num|0,1,2,3,4,5
+speedBoost|⚡ دفعة السرعة|num|0,1,2,3,4,5
+superBoost|🚀 الدفعة الخارقة|num|0,1,2,3,4,5
 fastbike_turboH|🚀 تيربو الدراجة السريعة (H)|num|0,1,2,3
 hippievan_boostH|🚀 دفعة شاحنة الهيبيين (H)|num|0,5,10,15,20
 rallycar_downforceH|🪂 قوة سفلية سيارة الرالي (H)|num|0,5,10,15,20
@@ -80,9 +119,33 @@ superoffroad_downforce|🪂 قوة سفلية سوبر أوف رود|num|0,5,10,
 
 # ═══════════ 🎮 مفاتيح فتح المركبات ═══════════
 automobile_unlocked|🚗 السيارة مفتوحة|num|0,1
-truck_unlocked|🚚 الشاحنة مفتوحة|num|0,1
-custom_event_unlocked|🎉 الحدث المخصص مفتوح|num|0,1
+badcar_unlocked|🚗 السيارة السيئة مفتوحة|num|0,1
+bike_unlocked|🏍️ الدراجة مفتوحة|num|0,1
+chopperbike_unlocked|🏍️ دراجة الهليكوبتر مفتوحة|num|0,1
+dunebuggy_unlocked|🚙 عربة الكثبان مفتوحة|num|0,1
+fastbike_unlocked|🏍️ الدراجة السريعة مفتوحة|num|0,1
+firetruck_unlocked|🚒 شاحنة الإطفاء مفتوحة|num|0,1
+hippievan_unlocked|🚐 شاحنة الهيبيين مفتوحة|num|0,1
+hotrod_unlocked|🏎️ الهوترود مفتوحة|num|0,1
 hovercraft_unlocked|🛸 الحوامة مفتوحة|num|0,1
+jeep_unlocked|🚙 الجيب مفتوحة|num|0,1
+lowrider_unlocked|🚗 اللورايدر مفتوحة|num|0,1
+luxury_unlocked|🚗 الفخامة مفتوحة|num|0,1
+monster_unlocked|🚙 المونستر مفتوحة|num|0,1
+moonlander_unlocked|🚙 عربة القمر مفتوحة|num|0,1
+policecar_unlocked|🚓 سيارة الشرطة مفتوحة|num|0,1
+quadbike_unlocked|🚙 الدراجة الرباعية مفتوحة|num|0,1
+racecar_unlocked|🏎️ سيارة السباق مفتوحة|num|0,1
+rallycar_unlocked|🏎️ سيارة الرالي مفتوحة|num|0,1
+snowmobile_unlocked|🛷 عربة الثلج مفتوحة|num|0,1
+tank_unlocked|🛡️ الدبابة مفتوحة|num|0,1
+tractor_unlocked|🚜 الجرار مفتوح|num|0,1
+train_unlocked|🚂 القطار مفتوح|num|0,1
+trophytruck_unlocked|🚚 شاحنة الكأس مفتوحة|num|0,1
+truck_unlocked|🚚 الشاحنة مفتوحة|num|0,1
+ufo_unlocked|🛸 UFO مفتوح|num|0,1
+aircar_unlocked|🚗 السيارة الطائرة مفتوحة|num|0,1
+custom_event_unlocked|🎉 الحدث المخصص مفتوح|num|0,1
 bootcamp_unlocked|🏕️ المخيم مفتوح|num|0,1
 
 # ═══════════ 🏁 التحديات ═══════════
@@ -93,6 +156,8 @@ challenge_4_unlocked|🔓 التحدي 4 مفتوح|num|0,1
 challenge_5_unlocked|🔓 التحدي 5 مفتوح|num|0,1
 challenge_6_unlocked|🔓 التحدي 6 مفتوح|num|0,1
 challenge_7_unlocked|🔓 التحدي 7 مفتوح|num|0,1
+challenge_highscore|🏅 أعلى نتيجة التحدي|num|100,1000,10000,100000,999999
+retro_hiscore|🏅 أعلى نتيجة ريترو|num|100,1000,10000,100000,999999
 BOG_DIGGER_unlocked|🕳️ حفار المستنقع مفتوح|num|0,1
 
 # ═══════════ ⚙️ محركات المركبات (MAX=20) ═══════════
@@ -160,24 +225,6 @@ VEHICLES_UNLOCKED_10_unlocked|🔓 فتح المركبات 10|num|0,1
 VEHICLES_UPGRADED_10_steps|⬆️ خطوات ترقية المركبات 10|num|0,5,10,25,50
 RETRO_RACER_steps|🏎️ خطوات متسابق ريترو|num|0,5,10,25,50
 
-# ═══════════ 📢 الإعلانات والإعدادات ═══════════
-video_ads_enabled|📺 الإعلانات المرئية|num|0,1
-personalized_ads_opted_out|🚫 إلغاء الإعلانات المخصصة|num|0,1
-is_double_money_active|💰 مضاعف المال نشط|num|0,1
-coffee_coin_perm|☕ عملة القهوة الدائمة|num|0,1
-daily_event_claimed|🎁 المكافأة اليومية المستلمة|num|0,1
-numberOfMissionsSkipped|⏭️ عدد المهام المتخطاة|num|0,1,5,10,25
-
-# ═══════════ 🎚️ مستويات الخرائط ═══════════
-mega_highway_level|🎚️ مستوى الطريق السريع|num|0,1,5,10,25,50
-rainbow_level|🎚️ مستوى قوس قزح|num|0,1,5,10,25,50
-challenge_7_level|🎚️ مستوى التحدي 7|num|0,1,5,10,25
-
-# ═══════════ 🏆 أعلى نتائج مميزة ═══════════
-actionhero_highscore|🏆 أعلى نتيجة Action Hero|num|100,500,928,1000,10000
-countryside_luxury_highscore|🏆 أعلى نتيجة الريف - الفخامة|num|100,500,1018,5000,10000
-actionhero_hachiroku_highscore|🏆 أعلى نتيجة Action Hero - هاتشيروكو|num|100,382,500,1000,5000
-
 # ═══════════ 📢 الإعلانات ═══════════
 noAds|🚫 بدون إعلانات|bool|
 no_ads|🚫 بدون إعلانات|bool|
@@ -193,15 +240,15 @@ adsDisabled|🚫 الإعلانات معطلة|bool|
 adsEnabled|📢 الإعلانات مفعلة|bool|
 showAds|📢 إظهار الإعلانات|bool|
 DisableAdvertisements|🚫 تعطيل الإعلانات|bool|
-video_ads_enabled|📺 الإعلانات المرئية|num|0,1|
-personalized_ads_opted_out|🚫 إلغاء الإعلانات المخصصة|num|0,1|
-has_unlocked_interstitials|🔓 فتح الإعلانات البينية|num|0,1|
-adSkipAmount|📊 عدد تخطي الإعلانات|num|0,1,10,100,1000|
-adsWatchedToday|📺 الإعلانات المشاهدة اليوم|num|0,1,5,10,50|
-adCounter|📊 عداد الإعلانات|num|0,1,10,100,1000|
-adsWatched|📺 الإعلانات المشاهدة|num|0,1,10,100,1000|
-adsCount|📊 عدد الإعلانات|num|0,1,10,100,1000|
-REMOVEADS|🚫 إزالة الإعلانات|num|0,1|
+video_ads_enabled|📺 الإعلانات المرئية|num|0,1
+personalized_ads_opted_out|🚫 إلغاء الإعلانات المخصصة|num|0,1
+has_unlocked_interstitials|🔓 فتح الإعلانات البينية|num|0,1
+adSkipAmount|📊 عدد تخطي الإعلانات|num|0,1,10,100,1000
+adsWatchedToday|📺 الإعلانات المشاهدة اليوم|num|0,1,5,10,50
+adCounter|📊 عداد الإعلانات|num|0,1,10,100,1000
+adsWatched|📺 الإعلانات المشاهدة|num|0,1,10,100,1000
+adsCount|📊 عدد الإعلانات|num|0,1,10,100,1000
+REMOVEADS|🚫 إزالة الإعلانات|num|0,1
 
 # ═══════════ 👑 العضوية والاشتراكات ═══════════
 isPremium|👑 حساب مدفوع|bool|
@@ -217,10 +264,10 @@ hasSubscription|💳 لديه اشتراك|bool|
 subscriptionActive|💳 الاشتراك نشط|bool|
 subscriber|💳 مشترك|bool|
 subscribed|💳 مشترك|bool|
-IsMember|👑 عضو|num|0,1|
-IsWeeklyMember|📅 عضو أسبوعي|num|0,1|
-IsYearlyMember|📅 عضو سنوي|num|0,1|
-EverBoughtMembership|🛒 شراء عضوية سابقاً|num|0,1|
+IsMember|👑 عضو|num|0,1
+IsWeeklyMember|📅 عضو أسبوعي|num|0,1
+IsYearlyMember|📅 عضو سنوي|num|0,1
+EverBoughtMembership|🛒 شراء عضوية سابقاً|num|0,1
 
 # ═══════════ 🏁 المراحل والمستويات ═══════════
 stages|🏁 المراحل|num|1,10,50,100,999
@@ -245,17 +292,6 @@ worldsUnlocked|🌍 العوالم المفتوحة|num|1,5,10,50,100
 dungeonLevel|🏰 مستوى الزنزانة|num|1,10,50,100,999
 towerFloor|🗼 طابق البرج|num|1,10,50,100,999
 arenaRank|⚔️ رتبة الساحة|num|1,10,50,100,999
-
-# ═══════════ 🎯 التحديات ═══════════
-challenge_1_unlocked|🔓 التحدي 1 مفتوح|num|0,1
-challenge_2_unlocked|🔓 التحدي 2 مفتوح|num|0,1
-challenge_3_unlocked|🔓 التحدي 3 مفتوح|num|0,1
-challenge_4_unlocked|🔓 التحدي 4 مفتوح|num|0,1
-challenge_5_unlocked|🔓 التحدي 5 مفتوح|num|0,1
-challenge_6_unlocked|🔓 التحدي 6 مفتوح|num|0,1
-challenge_7_unlocked|🔓 التحدي 7 مفتوح|num|0,1
-challenge_highscore|🏅 أعلى نتيجة التحدي|num|100,1000,10000,100000,999999
-retro_hiscore|🏅 أعلى نتيجة ريترو|num|100,1000,10000,100000,999999
 
 # ═══════════ 🔫 الأسلحة ═══════════
 Gun1|🔫 المسدس 1|text|
@@ -358,7 +394,6 @@ skillPoints|🎯 نقاط المهارات|num|1,5,10,50,100
 # ═══════════ 🎯 النقاط والجوائز ═══════════
 score|🎯 النقاط|num|100,1000,10000,100000,999999
 points|🎯 النقاط|num|100,1000,10000,100000,999999
-highscore|🏅 أعلى نتيجة|num|100,1000,10000,100000,999999
 highScore|🏅 أعلى نتيجة|num|100,1000,10000,100000,999999
 best_score|🏅 أفضل نتيجة|num|100,1000,10000,100000,999999
 max_score|🏅 أقصى نتيجة|num|100,1000,10000,100000,999999
@@ -405,35 +440,6 @@ allUserCars|🚗 جميع سيارات المستخدم|text|
 superCarBought|🏎️ السيارة الخارقة|bool|
 superGunEquiped|🔫 المسدس الخارق|bool|
 
-# ═══════════ 🚗 فتح المركبات ═══════════
-automobile_unlocked|🚗 السيارة مفتوحة|num|0,1
-badcar_unlocked|🚗 السيارة السيئة مفتوحة|num|0,1
-bike_unlocked|🏍️ الدراجة مفتوحة|num|0,1
-chopperbike_unlocked|🏍️ دراجة الهليكوبتر مفتوحة|num|0,1
-dunebuggy_unlocked|🚙 عربة الكثبان مفتوحة|num|0,1
-fastbike_unlocked|🏍️ الدراجة السريعة مفتوحة|num|0,1
-firetruck_unlocked|🚒 شاحنة الإطفاء مفتوحة|num|0,1
-hippievan_unlocked|🚐 شاحنة الهيبيين مفتوحة|num|0,1
-hotrod_unlocked|🏎️ الهوترود مفتوحة|num|0,1
-hovercraft_unlocked|🛸 الحوامة مفتوحة|num|0,1
-jeep_unlocked|🚙 الجيب مفتوحة|num|0,1
-lowrider_unlocked|🚗 اللورايدر مفتوحة|num|0,1
-luxury_unlocked|🚗 الفخامة مفتوحة|num|0,1
-monster_unlocked|🚙 المونستر مفتوحة|num|0,1
-moonlander_unlocked|🚙 عربة القمر مفتوحة|num|0,1
-policecar_unlocked|🚓 سيارة الشرطة مفتوحة|num|0,1
-quadbike_unlocked|🚙 الدراجة الرباعية مفتوحة|num|0,1
-racecar_unlocked|🏎️ سيارة السباق مفتوحة|num|0,1
-rallycar_unlocked|🏎️ سيارة الرالي مفتوحة|num|0,1
-snowmobile_unlocked|🛷 عربة الثلج مفتوحة|num|0,1
-tank_unlocked|🛡️ الدبابة مفتوحة|num|0,1
-tractor_unlocked|🚜 الجرار مفتوح|num|0,1
-train_unlocked|🚂 القطار مفتوح|num|0,1
-trophytruck_unlocked|🚚 شاحنة الكأس مفتوحة|num|0,1
-truck_unlocked|🚚 الشاحنة مفتوحة|num|0,1
-ufo_unlocked|🛸 UFO مفتوح|num|0,1
-aircar_unlocked|🚗 السيارة الطائرة مفتوحة|num|0,1
-
 # ═══════════ 🎁 المكافآت اليومية ═══════════
 dailyReward|🎁 المكافأة اليومية|num|10,50,100,500,1000
 dailyStreak|🔥 سلسلة الأيام|num|1,7,14,30,100
@@ -476,40 +482,6 @@ SubsFaceBook|📘 مشترك Facebook|bool|
 SubsInstagram|📷 مشترك Instagram|bool|
 SubsTwitter|🐦 مشترك Twitter|bool|
 SubsTikTok|🎵 مشترك TikTok|bool|
-
-# ═══════════ 🚀 النيترو (للألعاب التي تستخدمه بشكل صريح) ═══════════
-hcr1-nitro|🚀 النيترو|num|100,500,1000,5000,99999
-nitro|🚀 النيترو|num|100,500,1000,5000,99999
-nitroCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
-nitroLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
-nitroUpgrade|🚀 ترقية النيترو|num|0,1,2,3,4,5
-nos|🚀 النيترو (NOS)|num|100,500,1000,5000,99999
-nosCount|🚀 عدد النيترو|num|100,500,1000,5000,99999
-nosLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
-nosStage|🚀 مرحلة النيترو|num|0,1,2,3,4,5
-nosStageInstalled|🚀 النيترو المركب|num|0,1,2,3,4,5
-nitrous|🚀 النيترو|num|100,500,1000,5000,99999
-nitrousLevel|🚀 مستوى النيترو|num|0,1,2,3,4,5
-nitroAmount|🚀 كمية النيترو|num|100,500,1000,5000,99999
-nitroMax|🚀 أقصى نيترو|num|100,500,1000,5000,99999
-nitroRefill|🚀 إعادة تعبئة النيترو|num|1,10,100,1000,9999
-nitroBoost|🚀 دفعة النيترو|num|0,1,2,3,4,5
-nitroFuel|⛽ وقود النيترو|num|100,500,1000,5000,99999
-hasNitro|🚀 لديه نيترو|bool|
-unlockNitro|🔓 فتح النيترو|bool|
-nitroUnlocked|🔓 النيترو مفتوح|num|0,1
-turbo|🚀 التيربو|num|0,1,2,3,4,5
-turboCount|🚀 عدد التيربو|num|100,500,1000,5000,99999
-turboLevel|🚀 مستوى التيربو|num|0,1,2,3,4,5
-turboStage|🚀 مرحلة التيربو|num|0,1,2,3,4,5
-turboStageInstalled|🚀 التيربو المركب|num|0,1,2,3,4,5
-boost|🚀 الدفعة|num|0,1,2,3,4,5
-boostLevel|🚀 مستوى الدفعة|num|0,1,2,3,4,5
-boostStage|🚀 مرحلة الدفعة|num|0,1,2,3,4,5
-boostStageInstalled|🚀 الدفعة المركبة|num|0,1,2,3,4,5
-boostPressure|🔧 ضغط التيربو|num|0,1,2,3,4,5
-speedBoost|⚡ دفعة السرعة|num|0,1,2,3,4,5
-superBoost|🚀 الدفعة الخارقة|num|0,1,2,3,4,5
 
 # ═══════════ 📊 الإحصائيات ═══════════
 distanceRide|🛣️ مسافة القيادة|num|100,1000,10000,100000,999999
@@ -559,3 +531,13 @@ EverAppliedUpgrade|⬆️ تطبيق ترقية سابقاً|num|0,1
 CoinPack_1|🪙 حزمة عملات 1|bool|
 CoinPack_2|🪙 حزمة عملات 2|bool|
 IsGotWelcomeGift|🎁 هدية الترحيب|bool|
+
+# ═══════════ 🎚️ مستويات الخرائط ═══════════
+mega_highway_level|🎚️ مستوى الطريق السريع|num|0,1,5,10,25,50
+rainbow_level|🎚️ مستوى قوس قزح|num|0,1,5,10,25,50
+challenge_7_level|🎚️ مستوى التحدي 7|num|0,1,5,10,25
+
+# ═══════════ 🏆 أعلى نتائج مميزة ═══════════
+actionhero_highscore|🏆 أعلى نتيجة Action Hero|num|100,500,928,1000,10000
+countryside_luxury_highscore|🏆 أعلى نتيجة الريف - الفخامة|num|100,500,1018,5000,10000
+actionhero_hachiroku_highscore|🏆 أعلى نتيجة Action Hero - هاتشيروكو|num|100,382,500,1000,5000
