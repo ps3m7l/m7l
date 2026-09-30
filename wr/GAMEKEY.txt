@@ -541,3 +541,229 @@ challenge_7_level|🎚️ مستوى التحدي 7|num|0,1,5,10,25
 actionhero_highscore|🏆 أعلى نتيجة Action Hero|num|100,500,928,1000,10000
 countryside_luxury_highscore|🏆 أعلى نتيجة الريف - الفخامة|num|100,500,1018,5000,10000
 actionhero_hachiroku_highscore|🏆 أعلى نتيجة Action Hero - هاتشيروكو|num|100,382,500,1000,5000
+# ═══════════════════════════════════════════════════════════════
+#  🏆 الإنجازات والجوائز (Achievements) - HCR2
+# ═══════════════════════════════════════════════════════════════
+
+# ═══════════ 🔄 إنجازات الشقلبات (Backflips) ═══════════
+TOTAL_BACKFLIPS_10_steps|🔄 خطوات الشقلبات 10|num|0,5,10,25,50
+TOTAL_BACKFLIPS_10_unlocked|🔓 فتح الشقلبات 10|num|0,1
+TOTAL_BACKFLIPS_100_steps|🔄 خطوات الشقلبات 100|num|0,50,100,250,500
+TOTAL_BACKFLIPS_100_unlocked|🔓 فتح الشقلبات 100|num|0,1
+TOTAL_BACKFLIPS_1_000_steps|🔄 خطوات الشقلبات 1000|num|0,100,500,1000,5000
+TOTAL_BACKFLIPS_1_000_unlocked|🔓 فتح الشقلبات 1000|num|0,1
+
+# ═══════════ 🔄 إنجازات الدورات (Flips) ═══════════
+TOTAL_FLIPS_10_steps|🔄 خطوات الدورات 10|num|0,5,10,25,50
+TOTAL_FLIPS_10_unlocked|🔓 فتح الدورات 10|num|0,1
+TOTAL_FLIPS_100_steps|🔄 خطوات الدورات 100|num|0,50,100,250,500
+TOTAL_FLIPS_100_unlocked|🔓 فتح الدورات 100|num|0,1
+TOTAL_FLIPS_1_000_steps|🔄 خطوات الدورات 1000|num|0,100,500,1000,5000
+TOTAL_FLIPS_1_000_unlocked|🔓 فتح الدورات 1000|num|0,1
+
+# ═══════════ 🔄 إنجازات شقلبات الرقبة (Neckflips) ═══════════
+TOTAL_NECKFLIPS_5_steps|🔄 خطوات شقلبات الرقبة 5|num|0,1,5,10,25
+TOTAL_NECKFLIPS_5_unlocked|🔓 فتح شقلبات الرقبة 5|num|0,1
+TOTAL_NECKFLIPS_10_steps|🔄 خطوات شقلبات الرقبة 10|num|0,5,10,25,50
+TOTAL_NECKFLIPS_10_unlocked|🔓 فتح شقلبات الرقبة 10|num|0,1
+TOTAL_NECKFLIPS_50_steps|🔄 خطوات شقلبات الرقبة 50|num|0,25,50,100,250
+TOTAL_NECKFLIPS_50_unlocked|🔓 فتح شقلبات الرقبة 50|num|0,1
+
+# ═══════════ 🛣️ إنجازات المسافة (Distance) ═══════════
+TOTAL_DISTANCE_1_000_steps|🛣️ خطوات المسافة 1000|num|0,500,1000,5000,10000
+TOTAL_DISTANCE_1_000_unlocked|🔓 فتح المسافة 1000|num|0,1
+TOTAL_DISTANCE_10_000_steps|🛣️ خطوات المسافة 10000|num|0,5000,10000,50000,100000
+TOTAL_DISTANCE_10_000_unlocked|🔓 فتح المسافة 10000|num|0,1
+TOTAL_DISTANCE_100_000_steps|🛣️ خطوات المسافة 100000|num|0,50000,100000,500000,1000000
+TOTAL_DISTANCE_100_000_unlocked|🔓 فتح المسافة 100000|num|0,1
+TOTAL_DISTANCE_1_000_000_steps|🛣️ خطوات المسافة 1 مليون|num|0,500000,1000000,5000000,10000000
+TOTAL_DISTANCE_1_000_000_unlocked|🔓 فتح المسافة 1 مليون|num|0,1
+
+# ═══════════ 🏁 إنجازات الجولة الواحدة (Single Run) ═══════════
+SINGLE_RUN_100_000_steps|🏁 خطوات الجولة الواحدة 100000|num|0,50000,100000,500000,1000000
+SINGLE_RUN_100_000_unlocked|🔓 فتح الجولة الواحدة 100000|num|0,1
+SINGLE_RUN_1_000_000_steps|🏁 خطوات الجولة الواحدة 1 مليون|num|0,500000,1000000,5000000,10000000
+SINGLE_RUN_1_000_000_unlocked|🔓 فتح الجولة الواحدة 1 مليون|num|0,1
+
+# ═══════════ 🔄 إنجازات الشقلبات في جولة واحدة ═══════════
+BACKFLIPS_IN_ONE_RUN_10_steps|🔄 خطوات الشقلبات في جولة 10|num|0,5,10,25,50
+BACKFLIPS_IN_ONE_RUN_10_unlocked|🔓 فتح الشقلبات في جولة 10|num|0,1
+FLIPS_IN_ONE_RUN_10_steps|🔄 خطوات الدورات في جولة 10|num|0,5,10,25,50
+FLIPS_IN_ONE_RUN_10_unlocked|🔓 فتح الدورات في جولة 10|num|0,1
+NECKFLIP_WITHIN_5S_steps|🔄 خطوات شقلبة الرقبة في 5 ثوان|num|0,1,5,10,25
+NECKFLIP_WITHIN_5S_unlocked|🔓 فتح شقلبة الرقبة في 5 ثوان|num|0,1
+
+# ═══════════ 🚗 إنجازات فتح المركبات (Vehicles Unlocked) ═══════════
+VEHICLES_UNLOCKED_2_steps|🚗 خطوات فتح المركبات 2|num|0,1,2,5,10
+VEHICLES_UNLOCKED_2_unlocked|🔓 فتح المركبات 2|num|0,1
+VEHICLES_UNLOCKED_5_steps|🚗 خطوات فتح المركبات 5|num|0,1,5,10,25
+VEHICLES_UNLOCKED_5_unlocked|🔓 فتح المركبات 5|num|0,1
+VEHICLES_UNLOCKED_10_steps|🚗 خطوات فتح المركبات 10|num|0,5,10,25,50
+VEHICLES_UNLOCKED_10_unlocked|🔓 فتح المركبات 10|num|0,1
+VEHICLES_UNLOCKED_ALL_steps|🚗 خطوات فتح كل المركبات|num|0,10,25,50,100
+VEHICLES_UNLOCKED_ALL_unlocked|🔓 فتح كل المركبات|num|0,1
+
+# ═══════════ ⬆️ إنجازات ترقية المركبات (Vehicles Upgraded) ═══════════
+VEHICLES_UPGRADED_1_steps|⬆️ خطوات ترقية المركبات 1|num|0,1,2,5,10
+VEHICLES_UPGRADED_1_unlocked|🔓 فتح ترقية المركبات 1|num|0,1
+VEHICLES_UPGRADED_5_steps|⬆️ خطوات ترقية المركبات 5|num|0,1,5,10,25
+VEHICLES_UPGRADED_5_unlocked|🔓 فتح ترقية المركبات 5|num|0,1
+VEHICLES_UPGRADED_10_steps|⬆️ خطوات ترقية المركبات 10|num|0,5,10,25,50
+VEHICLES_UPGRADED_10_unlocked|🔓 فتح ترقية المركبات 10|num|0,1
+VEHICLES_UPGRADED_ALL_steps|⬆️ خطوات ترقية كل المركبات|num|0,10,25,50,100
+VEHICLES_UPGRADED_ALL_unlocked|🔓 فتح ترقية كل المركبات|num|0,1
+
+# ═══════════ 🏁 إنجازات فتح المراحل (Stages Unlocked) ═══════════
+STAGES_UNLOCKED_2_steps|🏁 خطوات فتح المراحل 2|num|0,1,2,5,10
+STAGES_UNLOCKED_2_unlocked|🔓 فتح المراحل 2|num|0,1
+STAGES_UNLOCKED_5_steps|🏁 خطوات فتح المراحل 5|num|0,1,5,10,25
+STAGES_UNLOCKED_5_unlocked|🔓 فتح المراحل 5|num|0,1
+STAGES_UNLOCKED_10_steps|🏁 خطوات فتح المراحل 10|num|0,5,10,25,50
+STAGES_UNLOCKED_10_unlocked|🔓 فتح المراحل 10|num|0,1
+STAGES_UNLOCKED_ALL_steps|🏁 خطوات فتح كل المراحل|num|0,10,25,50,100
+STAGES_UNLOCKED_ALL_unlocked|🔓 فتح كل المراحل|num|0,1
+
+# ═══════════ 🏅 إنجازات خاصة ═══════════
+LIFTOFF_steps|🚀 خطوات الإقلاع|num|0,5,10,25,50
+LIFTOFF_unlocked|🔓 فتح الإقلاع|num|0,1
+PICKUP_FUEL_WITH_EMPTY_TANK_steps|⛽ خطوات التقاط الوقود بخزان فارغ|num|0,5,10,25,50
+PICKUP_FUEL_WITH_EMPTY_TANK_unlocked|🔓 فتح التقاط الوقود بخزان فارغ|num|0,1
+DETACH_ALL_CARRIAGES_steps|🚃 خطوات فصل كل العربات|num|0,5,10,25,50
+DETACH_ALL_CARRIAGES_unlocked|🔓 فتح فصل كل العربات|num|0,1
+SEASONS_YEARS_COMPLETED_steps|📅 خطوات إكمال سنوات المواسم|num|0,5,10,25,50
+SEASONS_YEARS_COMPLETED_unlocked|🔓 فتح إكمال سنوات المواسم|num|0,1
+WATCH_CREDITS_steps|📜 خطوات مشاهدة الاعتمادات|num|0,1,5,10,25
+WATCH_CREDITS_unlocked|🔓 فتح مشاهدة الاعتمادات|num|0,1
+SHARE_RESULT_steps|📤 خطوات مشاركة النتيجة|num|0,1,5,10,25
+SHARE_RESULT_unlocked|🔓 فتح مشاركة النتيجة|num|0,1
+
+# ═══════════ 🏴‍☠️ إنجازات المكافآت الخاصة ═══════════
+TREASURE_HUNTER_steps|🏴‍☠️ خطوات صياد الكنز|num|0,5,10,25,50
+TREASURE_HUNTER_unlocked|🔓 فتح صياد الكنز|num|0,1
+BOG_DIGGER_steps|🕳️ خطوات حفار المستنقع|num|0,5,10,25,50
+BOG_DIGGER_unlocked|🔓 فتح حفار المستنقع|num|0,1
+POTATO_PICKER_steps|🥔 خطوات قاطف البطاطس|num|0,5,10,25,50
+POTATO_PICKER_unlocked|🔓 فتح قاطف البطاطس|num|0,1
+POTATO_MAN_steps|🥔 خطوات رجل البطاطس|num|0,5,10,25,50
+POTATO_MAN_unlocked|🔓 فتح رجل البطاطس|num|0,1
+BERRY_PICKER_steps|🫐 خطوات قاطف التوت|num|0,5,10,25,50
+BERRY_PICKER_unlocked|🔓 فتح قاطف التوت|num|0,1
+GRASSHOPPER_steps|🦗 خطوات الجندب|num|0,5,10,25,50
+GRASSHOPPER_unlocked|🔓 فتح الجندب|num|0,1
+HIP_HOPPER_steps|🦘 خطوات قافز الهيب هوب|num|0,5,10,25,50
+HIP_HOPPER_unlocked|🔓 فتح قافز الهيب هوب|num|0,1
+SPIDER_WALKER_steps|🕷️ خطوات ماشي العنكبوت|num|0,5,10,25,50
+SPIDER_WALKER_unlocked|🔓 فتح ماشي العنكبوت|num|0,1
+TROLL_MASTER_steps|👹 خطوات سيد الت troll|num|0,5,10,25,50
+TROLL_MASTER_unlocked|🔓 فتح سيد الت troll|num|0,1
+JUNGLE_KING_steps|🦁 خطوات ملك الغابة|num|0,5,10,25,50
+JUNGLE_KING_unlocked|🔓 فتح ملك الغابة|num|0,1
+NEON_KING_steps|💡 خطوات ملك النيون|num|0,5,10,25,50
+NEON_KING_unlocked|🔓 فتح ملك النيون|num|0,1
+
+# ═══════════ ♻️ إنجازات جامع القمامة والمهام ═══════════
+GARBAGE_COLLECTOR_steps|🗑️ خطوات جامع القمامة|num|0,5,10,25,50
+GARBAGE_COLLECTOR_unlocked|🔓 فتح جامع القمامة|num|0,1
+LOYAL_CUSTOMER_steps|💳 خطوات العميل الوفي|num|0,5,10,25,50
+LOYAL_CUSTOMER_unlocked|🔓 فتح العميل الوفي|num|0,1
+MOTHER_GOOSE_steps|🪿 خطوات الأم أوزة|num|0,5,10,25,50
+MOTHER_GOOSE_unlocked|🔓 فتح الأم أوزة|num|0,1
+CHAUFFEUR_steps|🚗 خطوات السائق|num|0,5,10,25,50
+CHAUFFEUR_unlocked|🔓 فتح السائق|num|0,1
+FUEL_SWOOPER_steps|⛽ خطوات منتقي الوقود|num|0,5,10,25,50
+FUEL_SWOOPER_unlocked|🔓 فتح منتقي الوقود|num|0,1
+
+# ═══════════ 🎿 إنجازات القفز والتجميع ═══════════
+SKIJUMP_JUMPS_COMPLETED_steps|🎿 خطوات القفزات المكتملة|num|0,5,10,25,50
+SKIJUMP_JUMPS_COMPLETED_unlocked|🔓 فتح القفزات المكتملة|num|0,1
+TOTAL_PACKAGES_steps|📦 خطوات إجمالي الحزم|num|0,5,10,25,50
+TOTAL_PACKAGES_unlocked|🔓 فتح إجمالي الحزم|num|0,1
+TOTAL_PRESENTS_steps|🎁 خطوات إجمالي الهدايا|num|0,5,10,25,50
+TOTAL_PRESENTS_unlocked|🔓 فتح إجمالي الهدايا|num|0,1
+TOTAL_PUMPKINS_steps|🎃 خطوات إجمالي القرع|num|0,5,10,25,50
+TOTAL_PUMPKINS_unlocked|🔓 فتح إجمالي القرع|num|0,1
+CHALLENGE_DISTANCE_COMPLETED_steps|🏁 خطوات المسافة المكتملة|num|0,5,10,25,50
+CHALLENGE_DISTANCE_COMPLETED_unlocked|🔓 فتح المسافة المكتملة|num|0,1
+
+# ═══════════ 🏎️ إنجازات خاصة نادرة ═══════════
+RETRO_RACER_steps|🏎️ خطوات متسابق ريترو|num|0,5,10,25,50
+RETRO_RACER_unlocked|🔓 فتح متسابق ريترو|num|0,1
+NUCLEAR_SECRET_steps|☢️ خطوات السر النووي|num|0,5,10,25,50
+NUCLEAR_SECRET_unlocked|🔓 فتح السر النووي|num|0,1
+
+# ═══════════ 🏆 الإتقان (Mastery) ═══════════
+snowmobile_mastery_steps|🏆 خطوات إتقان عربة الثلج|num|0,500,1000,2500,5000
+snowmobile_mastery_unlocked|🔓 إتقان عربة الثلج|num|0,1
+bigfinger_mastery_steps|🏆 خطوات إتقان الإصبع الكبير|num|0,500,1000,2500,5000
+bigfinger_mastery_unlocked|🔓 إتقان الإصبع الكبير|num|0,1
+moonlander_mastery_steps|🏆 خطوات إتقان عربة القمر|num|0,500,1000,2500,5000
+moonlander_mastery_unlocked|🔓 إتقان عربة القمر|num|0,1
+chopperbike_mastery_steps|🏆 خطوات إتقان دراجة الهليكوبتر|num|0,500,1000,2500,5000
+chopperbike_mastery_unlocked|🔓 إتقان دراجة الهليكوبتر|num|0,1
+bike_mastery_steps|🏆 خطوات إتقان الدراجة|num|0,500,1000,2500,5000
+bike_mastery_unlocked|🔓 إتقان الدراجة|num|0,1
+bubblecar_mastery_steps|🏆 خطوات إتقان سيارة الفقاعة|num|0,500,1000,2500,5000
+bubblecar_mastery_unlocked|🔓 إتقان سيارة الفقاعة|num|0,1
+dieseltruck_mastery_steps|🏆 خطوات إتقان شاحنة الديزل|num|0,500,1000,2500,5000
+dieseltruck_mastery_unlocked|🔓 إتقان شاحنة الديزل|num|0,1
+dunebuggy_mastery_steps|🏆 خطوات إتقان عربة الكثبان|num|0,500,1000,2500,5000
+dunebuggy_mastery_unlocked|🔓 إتقان عربة الكثبان|num|0,1
+fastbike_mastery_steps|🏆 خطوات إتقان الدراجة السريعة|num|0,500,1000,2500,5000
+fastbike_mastery_unlocked|🔓 إتقان الدراجة السريعة|num|0,1
+firetruck_mastery_steps|🏆 خطوات إتقان شاحنة الإطفاء|num|0,500,1000,2500,5000
+firetruck_mastery_unlocked|🔓 إتقان شاحنة الإطفاء|num|0,1
+hippievan_mastery_steps|🏆 خطوات إتقان شاحنة الهيبيين|num|0,500,1000,2500,5000
+hippievan_mastery_unlocked|🔓 إتقان شاحنة الهيبيين|num|0,1
+hotrod_mastery_steps|🏆 خطوات إتقان الهوترود|num|0,500,1000,2500,5000
+hotrod_mastery_unlocked|🔓 إتقان الهوترود|num|0,1
+hovercraft_mastery_steps|🏆 خطوات إتقان الحوامة|num|0,500,1000,2500,5000
+hovercraft_mastery_unlocked|🔓 إتقان الحوامة|num|0,1
+jeep_mastery_steps|🏆 خطوات إتقان الجيب|num|0,500,1000,2500,5000
+jeep_mastery_unlocked|🔓 إتقان الجيب|num|0,1
+lowrider_mastery_steps|🏆 خطوات إتقان اللورايدر|num|0,500,1000,2500,5000
+lowrider_mastery_unlocked|🔓 إتقان اللورايدر|num|0,1
+luxury_mastery_steps|🏆 خطوات إتقان الفخامة|num|0,500,1000,2500,5000
+luxury_mastery_unlocked|🔓 إتقان الفخامة|num|0,1
+minibike_mastery_steps|🏆 خطوات إتقان الدراجة الصغيرة|num|0,500,1000,2500,5000
+minibike_mastery_unlocked|🔓 إتقان الدراجة الصغيرة|num|0,1
+monster_mastery_steps|🏆 خطوات إتقان المونستر|num|0,500,1000,2500,5000
+monster_mastery_unlocked|🔓 إتقان المونستر|num|0,1
+onewheeler_mastery_steps|🏆 خطوات إتقان أحادي العجلة|num|0,500,1000,2500,5000
+onewheeler_mastery_unlocked|🔓 إتقان أحادي العجلة|num|0,1
+policecar_mastery_steps|🏆 خطوات إتقان سيارة الشرطة|num|0,500,1000,2500,5000
+policecar_mastery_unlocked|🔓 إتقان سيارة الشرطة|num|0,1
+quadbike_mastery_steps|🏆 خطوات إتقان الدراجة الرباعية|num|0,500,1000,2500,5000
+quadbike_mastery_unlocked|🔓 إتقان الدراجة الرباعية|num|0,1
+racecar_mastery_steps|🏆 خطوات إتقان سيارة السباق|num|0,500,1000,2500,5000
+racecar_mastery_unlocked|🔓 إتقان سيارة السباق|num|0,1
+rallycar_mastery_steps|🏆 خطوات إتقان سيارة الرالي|num|0,500,1000,2500,5000
+rallycar_mastery_unlocked|🔓 إتقان سيارة الرالي|num|0,1
+screwfinger_mastery_steps|🏆 خطوات إتقان سكروفينغر|num|0,500,1000,2500,5000
+screwfinger_mastery_unlocked|🔓 إتقان سكروفينغر|num|0,1
+sleigh_mastery_steps|🏆 خطوات إتقان الزلاجة|num|0,500,1000,2500,5000
+sleigh_mastery_unlocked|🔓 إتقان الزلاجة|num|0,1
+tank_mastery_steps|🏆 خطوات إتقان الدبابة|num|0,500,1000,2500,5000
+tank_mastery_unlocked|🔓 إتقان الدبابة|num|0,1
+tractor_mastery_steps|🏆 خطوات إتقان الجرار|num|0,500,1000,2500,5000
+tractor_mastery_unlocked|🔓 إتقان الجرار|num|0,1
+train_mastery_steps|🏆 خطوات إتقان القطار|num|0,500,1000,2500,5000
+train_mastery_unlocked|🔓 إتقان القطار|num|0,1
+trophytruck_mastery_steps|🏆 خطوات إتقان شاحنة الكأس|num|0,500,1000,2500,5000
+trophytruck_mastery_unlocked|🔓 إتقان شاحنة الكأس|num|0,1
+truck_mastery_steps|🏆 خطوات إتقان الشاحنة|num|0,500,1000,2500,5000
+truck_mastery_unlocked|🔓 إتقان الشاحنة|num|0,1
+electric_mastery_steps|🏆 خطوات إتقان الكهربائية|num|0,500,1000,2500,5000
+electric_mastery_unlocked|🔓 إتقان الكهربائية|num|0,1
+
+# ═══════════ 🎯 قيم GP (نظام التقدم) ═══════════
+GP_22NP|📊 GP 22NP|num|0,1
+GP_1NP|📊 GP 1NP|num|0,1
+GP_1CN|📊 GP 1CN|num|0,5,10,25,32,34,50,100
+GP_17UL|📊 GP 17UL|num|0,1
+GP_22AN|📊 GP 22AN|num|0,1
+GP_18NP|📊 GP 18NP|num|0,1
+GP_22CN|📊 GP 22CN|num|0,5,10,12,25,50
+
+# ═══════════ 💎 مكافآت خاصة ═══════════
+gemCompensationForExcessiveNitros|💎 تعويض الجواهر عن النيترو|num|100,500,1000,2000,5000,10000
+lipjaon|🎁 مفتاح خاص|text|
