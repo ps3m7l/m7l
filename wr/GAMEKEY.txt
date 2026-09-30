@@ -1,4 +1,4 @@
-# ═══════════════════════════════════════════════════════════════
+⁸# ═══════════════════════════════════════════════════════════════
 #  M7L TEAM - GAMEKEY Values List
 #  الصيغة: المفتاح|الوصف|النوع|القيم_المقترحة
 #  النوع: num (رقم) - bool (منطقي) - text (نص)
@@ -62,6 +62,121 @@ Gadsme_UserId|🆔 معرف Gadsme (آمن)|text|
 unity_connect.installation_id|🆔 معرف التثبيت (آمن)|text|
 unity_connect.session_id|🆔 معرف الجلسة (آمن)|text|
 unity_connect.mega_session_id|🆔 معرف الجلسة الكبير (آمن)|text|
+# ═══════════════════════════════════════════════════════════════
+#  M7L TEAM - GAMEKEY Values (مستخرج من ملف حفظ حقيقي)
+#  الصيغة: المفتاح|الوصف|النوع|القيم_المقترحة
+# ═══════════════════════════════════════════════════════════════
+
+# ═══════════ 💰 القيم المالية (مؤكدة 100%) ═══════════
+coins|🪙 العملات|num|99999,999999,9999999,99999999,999999999,1000006999
+highscore|🏅 أعلى نتيجة|num|100,1000,10000,100000,999999,9999999
+gemCompensationForExcessiveNitros|💎 تعويض الجواهر عن النيترو|num|100,500,1000,2000,5000,10000
+
+# ═══════════ 🚀 التيربو والنيترو والدفعات ═══════════
+fastbike_turboH|🚀 تيربو الدراجة السريعة (H)|num|0,1,2,3
+hippievan_boostH|🚀 دفعة شاحنة الهيبيين (H)|num|0,5,10,15,20
+rallycar_downforceH|🪂 قوة سفلية سيارة الرالي (H)|num|0,5,10,15,20
+superoffroad_downforce|🪂 قوة سفلية سوبر أوف رود|num|0,5,10,15,20
+
+# ═══════════ 🎮 مفاتيح فتح المركبات ═══════════
+automobile_unlocked|🚗 السيارة مفتوحة|num|0,1
+truck_unlocked|🚚 الشاحنة مفتوحة|num|0,1
+custom_event_unlocked|🎉 الحدث المخصص مفتوح|num|0,1
+hovercraft_unlocked|🛸 الحوامة مفتوحة|num|0,1
+bootcamp_unlocked|🏕️ المخيم مفتوح|num|0,1
+
+# ═══════════ 🏁 التحديات ═══════════
+challenge_1_unlocked|🔓 التحدي 1 مفتوح|num|0,1
+challenge_2_unlocked|🔓 التحدي 2 مفتوح|num|0,1
+challenge_3_unlocked|🔓 التحدي 3 مفتوح|num|0,1
+challenge_4_unlocked|🔓 التحدي 4 مفتوح|num|0,1
+challenge_5_unlocked|🔓 التحدي 5 مفتوح|num|0,1
+challenge_6_unlocked|🔓 التحدي 6 مفتوح|num|0,1
+challenge_7_unlocked|🔓 التحدي 7 مفتوح|num|0,1
+BOG_DIGGER_unlocked|🕳️ حفار المستنقع مفتوح|num|0,1
+
+# ═══════════ ⚙️ محركات المركبات (MAX=20) ═══════════
+dragster_engineH|⚙️ محرك الدراجستر|num|0,5,10,15,20
+firetruck_engineH|⚙️ محرك شاحنة الإطفاء|num|0,5,10,15,20
+train_engineH|⚙️ محرك القطار|num|0,5,10,15,20
+bigfinger_engine|⚙️ محرك الإصبع الكبير|num|0,5,10,15,20
+hovercraft_engine|⚙️ محرك الحوامة|num|0,5,10,15,20
+electric_engine_frontH|⚙️ محرك كهربائي أمامي|num|0,5,10,15,20
+electric_engine_rear|⚙️ محرك كهربائي خلفي|num|0,5,10,15,20
+
+# ═══════════ 🔧 تعليق المركبات ═══════════
+onewheeler_suspension|🔧 تعليق أحادي العجلة|num|0,5,10,15,20
+carcar_suspension|🔧 تعليق السيارة|num|0,5,10,15,20
+chopper_suspension|🔧 تعليق الهليكوبتر|num|0,5,10,15,20
+tank_suspensionH|🔧 تعليق الدبابة (H)|num|0,5,10,15,20
+sleigh_suspensionH|🔧 تعليق الزلاجة (H)|num|0,5,10,15,20
+dragster_stability|🔧 ثبات الدراجستر|num|0,5,10,15,20
+
+# ═══════════ 🛞 الإطارات ═══════════
+bubblecar_tiresH|🛞 إطارات سيارة الفقاعة (H)|num|0,5,10,15,20,25
+tank_tiresH|🛞 إطارات الدبابة (H)|num|0,5,10,15,20
+
+# ═══════════ ⛽ الوقود ═══════════
+dieseltruck_fuelH|⛽ وقود شاحنة الديزل (H)|num|0,5,10,15,20
+policecar_fuelH|⛽ وقود سيارة الشرطة (H)|num|0,5,10,15,20
+
+# ═══════════ 🔄 دفع رباعي ═══════════
+quadbike_awd|🔄 دفع رباعي الدراجة الرباعية|num|0,5,10,15,20
+
+# ═══════════ 💨 اختيار القوة ═══════════
+policecar_powerupsel|⚡ اختيار قوة سيارة الشرطة|num|0,1,2,3
+hotrod_powerupsel|⚡ اختيار قوة الهوترود|num|0,1,2,3
+bike_powerupsel|⚡ اختيار قوة الدراجة|num|0,1,2,3
+hachiroku_powerupsel|⚡ اختيار قوة هاتشيروكو|num|0,1,2,3
+
+# ═══════════ 🏆 الإتقان (Mastery) ═══════════
+snowmobile_mastery_steps|🏆 خطوات إتقان عربة الثلج|num|0,500,1000,2500,5000
+bigfinger_mastery_steps|🏆 خطوات إتقان الإصبع الكبير|num|0,500,1000,2500,5000
+moonlander_mastery_unlocked|🔓 إتقان عربة القمر|num|0,1
+
+# ═══════════ 📦 الصناديق المستهلكة ═══════════
+aircar_chestconsumed|📦 صندوق السيارة الطائرة|num|0,1
+racecar_chestconsumed|📦 صندوق سيارة السباق|num|0,1
+rallycar_chestconsumed|📦 صندوق سيارة الرالي|num|0,1
+fingersports_chestconsumed|📦 صندوق فينغرسبورتس|num|0,1
+
+# ═══════════ 🎯 GP Values ═══════════
+GP_22NP|📊 GP 22NP|num|0,1
+GP_1NP|📊 GP 1NP|num|0,1
+GP_1CN|📊 GP 1CN|num|0,5,10,25,32,50,100
+GP_17UL|📊 GP 17UL|num|0,1
+GP_22AN|📊 GP 22AN|num|0,1
+GP_18NP|📊 GP 18NP|num|0,1
+GP_22CN|📊 GP 22CN|num|0,5,10,12,25,50
+
+# ═══════════ 🏅 الإنجازات ═══════════
+TOTAL_BACKFLIPS_10_steps|🔄 خطوات الشقلبات 10|num|0,5,10,25,50
+TOTAL_DISTANCE_10_000_steps|🛣️ خطوات المسافة 10000|num|0,5000,10000,50000,100000
+TOTAL_DISTANCE_10_000_unlocked|🔓 فتح المسافة 10000|num|0,1
+TOTAL_FLIPS_100_unlocked|🔓 فتح الدورات 100|num|0,1
+VEHICLES_UNLOCKED_5_steps|🚗 خطوات فتح المركبات 5|num|0,1,5,10,25
+VEHICLES_UNLOCKED_10_steps|🚗 خطوات فتح المركبات 10|num|0,5,10,25,50
+VEHICLES_UNLOCKED_10_unlocked|🔓 فتح المركبات 10|num|0,1
+VEHICLES_UPGRADED_10_steps|⬆️ خطوات ترقية المركبات 10|num|0,5,10,25,50
+RETRO_RACER_steps|🏎️ خطوات متسابق ريترو|num|0,5,10,25,50
+
+# ═══════════ 📢 الإعلانات والإعدادات ═══════════
+video_ads_enabled|📺 الإعلانات المرئية|num|0,1
+personalized_ads_opted_out|🚫 إلغاء الإعلانات المخصصة|num|0,1
+is_double_money_active|💰 مضاعف المال نشط|num|0,1
+coffee_coin_perm|☕ عملة القهوة الدائمة|num|0,1
+daily_event_claimed|🎁 المكافأة اليومية المستلمة|num|0,1
+numberOfMissionsSkipped|⏭️ عدد المهام المتخطاة|num|0,1,5,10,25
+
+# ═══════════ 🎚️ مستويات الخرائط ═══════════
+mega_highway_level|🎚️ مستوى الطريق السريع|num|0,1,5,10,25,50
+rainbow_level|🎚️ مستوى قوس قزح|num|0,1,5,10,25,50
+challenge_7_level|🎚️ مستوى التحدي 7|num|0,1,5,10,25
+
+# ═══════════ 🏆 أعلى نتائج مميزة ═══════════
+actionhero_highscore|🏆 أعلى نتيجة Action Hero|num|100,500,928,1000,10000
+countryside_luxury_highscore|🏆 أعلى نتيجة الريف - الفخامة|num|100,500,1018,5000,10000
+actionhero_hachiroku_highscore|🏆 أعلى نتيجة Action Hero - هاتشيروكو|num|100,382,500,1000,5000
 
 # ═══════════ 📢 الإعلانات ═══════════
 noAds|🚫 بدون إعلانات|bool|
