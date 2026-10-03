@@ -1,5 +1,5 @@
 version:1.0
-versionCode:2
+versionCode:1
 url:https://raw.githubusercontent.com/ps3m7l/m7l/main/gamealpha/app-release.apk
 changelog:
 • إصلاح مشكلة فك الضغط
