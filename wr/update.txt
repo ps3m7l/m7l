@@ -1,0 +1,9 @@
+version:1.1
+versionCode:2
+url:https://raw.githubusercontent.com/ps3m7l/m7l/main/gamealpha/app-release.apk
+changelog:
+• إصلاح مشكلة فك الضغط
+• تحسين سرعة التطبيق
+• إضافة ميزة جديدة
+• تحسينات في الواجهة
+forced:true
