@@ -1,0 +1,5 @@
+title:🎉 مرحباً بك
+message:شكراً لاستخدامك M7L GAME ALPHA! استمتع بالمميزات الجديدة.
+type:info
+date:2026-10-03
+id:1001
